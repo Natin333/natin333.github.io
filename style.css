@@ -3,7 +3,7 @@ body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 9s ease infinite;
-	height: 400vh;
+	height: 500vh;
 }
 
 @keyframes gradient {
@@ -46,7 +46,7 @@ p {
     min-height: 500px;
     border-radius: 30px;
     font-size: 28px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     margin-bottom: 40px;
 }
 #textStyle {
@@ -95,4 +95,31 @@ p {
 }
 .centerImage {
     text-align: center;
+}
+table {
+
+    margin-left: 50px;
+    background-color:rgb(212, 235, 255);
+    width: 800px;
+    max-width: 90%;
+    border-spacing: 0px;
+    margin-bottom: 22px;
+}
+td {
+    background-color:rgb(233, 245, 255);
+}
+th {
+    text-align: left;
+    vertical-align: top;
+    font-size: 40px;
+    color: rgb(0, 121, 165);
+}
+
+.stars {
+    width: 36px;
+    height: 36px;
+}
+.avatars {
+    width: 130px;
+    height: 130px;
 }
